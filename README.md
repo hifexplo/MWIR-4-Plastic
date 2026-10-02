@@ -1,4 +1,8 @@
-# Complex Plastic Identification using Machine Learning and Mid-wave Infrared Hyperspectral Imaging
+# MWIR-4-Plastic: The Identification of Complex End-of-Life Industrial Plastic using Mid-wave Infrared Hyperspectral Imaging and  Machine Learning
+
+This is the GitHub repository for the manuscript: https://arxiv.org/html/2608.28874v1
+
+![[http://url/to/img.png](https://github.com/Elias-Arbash/MWIR-/main/images/readme.jpg)](https://github.com/Elias-Arbash/MWIR-4-Plastic/blob/main/images/readme.jpg)
 
 Pixel-wise polymer classification (Styrene, PA, PC, PP, mix) from fused
 FENIX + FX50 mid-wave infrared hyperspectral cubes. The repo has two
@@ -105,3 +109,14 @@ See [`inference/README.md`](inference/README.md) for full argument details
 and output format. Classical ML models (KNN/RF/SVM/LDA) don't have a
 separate inference script — reload the saved `.joblib` pipeline directly
 with `joblib.load(...)`.
+
+
+## Dataset repo:
+The dataset is available at: https://zenodo.org/records/22142947
+
+## Citation:
+@article{arbash2026mwir,
+  title={MWIR-4-Plastic: The Identification of Complex End-of-Life Industrial Plastic using Mid-wave Infrared Hyperspectral Imaging and Machine Learning},
+  author={Arbash, Elias and Ribeiro, Andr{\'e}a de Lima and Sim{\~o}es, Filipa and Afifi, Ahmed Jamal and Rizaldy, Aldino and Madriz, Yuleika and Thiele, Samuel and Lorenz, Sandra and Fuchs, Margret and Ghamisi, Pedram and others},
+  journal={arXiv preprint arXiv:2608.28874},
+  year={2026}
